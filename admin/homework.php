@@ -21,7 +21,6 @@ if(!isset($_GET['id'])){
                             <div class="col-md-12">
                                 <div class="card">
                                     <div class="card-body">
-                                        <h3><?= $result['title'] ?></h3>
                                         <p><?= $subject['subject'] ?> - <?= $result['date'] ?></p>
                                         <hr>
                                         <p><?= $result['content'] ?></p>
